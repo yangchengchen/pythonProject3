@@ -1,0 +1,28 @@
+# 电商项目用例
+
+loginPage :
+  -
+    title : 登录成功
+    description : 登录成功的用例
+    cases :
+      -
+        name : 打开登录页
+        method : geturl
+        url : https://cdc.test.yuanting.cn/#/login
+
+      -
+        name : 输入用户名
+        method : input
+        locator : //*[@id="app"]/div/form/div[2]/div/div/input
+        value : admin
+
+      -
+        name : 输入密码
+        method : input
+        locator : //*[@id="app"]/div/form/div[3]/div/div/input
+        value : 1111
+
+      -
+        name : 点击登录
+        method : click
+        locator : //*[@id="app"]/div/form/button

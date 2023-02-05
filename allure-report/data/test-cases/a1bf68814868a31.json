@@ -1,0 +1,87 @@
+{
+  "uid" : "a1bf68814868a31",
+  "name" : "test_comm[listcases0]",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_comm",
+  "historyId" : "05e1a9c6d79568ee17a7c0f41e6905ab",
+  "time" : {
+    "start" : 1674218237529,
+    "stop" : 1674218239313,
+    "duration" : 1784
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674218237528,
+      "stop" : 1674218237528,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674218239316,
+      "stop" : 1674218239316,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "44541-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理的用例', 'cases': [{'name': '出差申请', 'method': 'post', 'data': {'name': '[202301181615] ycc000[ycc000]的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/start'}, {'name': '请假申请', 'method': 'post', 'data': {'name': '[202301202034] ycc000[ycc000]的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/start'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1bf68814868a31.json",
+  "parameterValues" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理的用例', 'cases': [{'name': '出差申请', 'method': 'post', 'data': {'name': '[202301181615] ycc000[ycc000]的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/start'}, {'name': '请假申请', 'method': 'post', 'data': {'name': '[202301202034] ycc000[ycc000]的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/start'}]}" ]
+}

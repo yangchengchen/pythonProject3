@@ -1,0 +1,87 @@
+{
+  "uid" : "14557a0575c6e9c9",
+  "name" : "test_start",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_start",
+  "historyId" : "70c1a5e21cfeac7683a127b632717906",
+  "time" : {
+    "start" : 1674388976986,
+    "stop" : 1674388977859,
+    "duration" : 873
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674388976985,
+      "stop" : 1674388976985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674388977860,
+      "stop" : 1674388977860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申请OA"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "52258-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14557a0575c6e9c9.json",
+  "parameterValues" : [ ]
+}

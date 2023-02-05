@@ -1,0 +1,26 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "546e6b0ec71f8add2abc940102449a2e",
+    "name" : "申请OA",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "85a74dc0a82e83a4f8a3c094d0ec0374",
+    "name" : "原霆科技",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

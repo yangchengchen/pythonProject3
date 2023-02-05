@@ -1,0 +1,488 @@
+{
+  "uid" : "1d743bb7f1cdbd1",
+  "name" : "test_start",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_start",
+  "historyId" : "70c1a5e21cfeac7683a127b632717906",
+  "time" : {
+    "start" : 1674389668096,
+    "stop" : 1674389669766,
+    "duration" : 1670
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674389668095,
+      "stop" : 1674389668095,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674389669767,
+      "stop" : 1674389669768,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申请OA"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "52649-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a02ccd01851a1559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389650872,
+        "stop" : 1674389652573,
+        "duration" : 1701
+      }
+    }, {
+      "uid" : "6e26a2b49b75108e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389599749,
+        "stop" : 1674389601536,
+        "duration" : 1787
+      }
+    }, {
+      "uid" : "bf7be20de6a61632",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389527207,
+        "stop" : 1674389528847,
+        "duration" : 1640
+      }
+    }, {
+      "uid" : "c6713ba70a9f699a",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.MissingSchema: Invalid URL 'oa/process/complete': No scheme supplied. Perhaps you meant https://oa/process/complete?",
+      "time" : {
+        "start" : 1674389420959,
+        "stop" : 1674389423192,
+        "duration" : 2233
+      }
+    }, {
+      "uid" : "132736a35d694215",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389193999,
+        "stop" : 1674389194983,
+        "duration" : 984
+      }
+    }, {
+      "uid" : "99390c070e36d9b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389117606,
+        "stop" : 1674389118529,
+        "duration" : 923
+      }
+    }, {
+      "uid" : "acdc5aab1ee8750a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'json'",
+      "time" : {
+        "start" : 1674389062638,
+        "stop" : 1674389063493,
+        "duration" : 855
+      }
+    }, {
+      "uid" : "14557a0575c6e9c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674388976986,
+        "stop" : 1674388977859,
+        "duration" : 873
+      }
+    }, {
+      "uid" : "555a1a93fbf2d88f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674388904351,
+        "stop" : 1674388905263,
+        "duration" : 912
+      }
+    }, {
+      "uid" : "4b6c44ea5e7d0dd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674388833970,
+        "stop" : 1674388834919,
+        "duration" : 949
+      }
+    }, {
+      "uid" : "f155f749ba9f3fcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674388765365,
+        "stop" : 1674388766255,
+        "duration" : 890
+      }
+    }, {
+      "uid" : "3c43e66e2aa194ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674388577555,
+        "stop" : 1674388578495,
+        "duration" : 940
+      }
+    }, {
+      "uid" : "bc7ed9a9dc6afe9f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'Webapi.keys' has no attribute 'post'",
+      "time" : {
+        "start" : 1674388550586,
+        "stop" : 1674388550586,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "797eef5fa49b8b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674140121038,
+        "stop" : 1674140121875,
+        "duration" : 837
+      }
+    }, {
+      "uid" : "5040d11ed647bfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674053127557,
+        "stop" : 1674053130112,
+        "duration" : 2555
+      }
+    }, {
+      "uid" : "f5130027c4fd5f18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674053036967,
+        "stop" : 1674053043019,
+        "duration" : 6052
+      }
+    }, {
+      "uid" : "96afbb9aeef4ffcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674052954114,
+        "stop" : 1674052956305,
+        "duration" : 2191
+      }
+    }, {
+      "uid" : "ac430e539220a42c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674052724571,
+        "stop" : 1674052727229,
+        "duration" : 2658
+      }
+    }, {
+      "uid" : "c8ad6da3bfe1a70e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674052607310,
+        "stop" : 1674052609248,
+        "duration" : 1938
+      }
+    }, {
+      "uid" : "6e5412a930bae001",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674052576467,
+        "stop" : 1674052579014,
+        "duration" : 2547
+      }
+    }, {
+      "uid" : "ae226cce8524313a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674052527049,
+        "stop" : 1674052529041,
+        "duration" : 1992
+      }
+    }, {
+      "uid" : "22b8902b4d05be53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674051426917,
+        "stop" : 1674051429370,
+        "duration" : 2453
+      }
+    }, {
+      "uid" : "f314109680a9791b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674037196003,
+        "stop" : 1674037198864,
+        "duration" : 2861
+      }
+    }, {
+      "uid" : "e7f4a5dbc177ca2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674034035609,
+        "stop" : 1674034036485,
+        "duration" : 876
+      }
+    }, {
+      "uid" : "bdeda7eeb4224025",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674033556673,
+        "stop" : 1674033557528,
+        "duration" : 855
+      }
+    }, {
+      "uid" : "1aa148a82932b45c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674033531316,
+        "stop" : 1674033532180,
+        "duration" : 864
+      }
+    }, {
+      "uid" : "2ebea1b883c65e4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674033491813,
+        "stop" : 1674033493678,
+        "duration" : 1865
+      }
+    }, {
+      "uid" : "f4f4ae59b93a3099",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1674033429674,
+        "stop" : 1674033430115,
+        "duration" : 441
+      }
+    }, {
+      "uid" : "624bc78614b1a985",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1674033378846,
+        "stop" : 1674033379254,
+        "duration" : 408
+      }
+    }, {
+      "uid" : "3c846011dc79cef6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674033298627,
+        "stop" : 1674033299464,
+        "duration" : 837
+      }
+    }, {
+      "uid" : "401769fb99556a9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674033231728,
+        "stop" : 1674033232583,
+        "duration" : 855
+      }
+    }, {
+      "uid" : "c138113ba680ee74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674033174233,
+        "stop" : 1674033175091,
+        "duration" : 858
+      }
+    }, {
+      "uid" : "35e23ddacf5a3a17",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() takes 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1674033135060,
+        "stop" : 1674033135060,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e058c83682739679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674032910969,
+        "stop" : 1674032911820,
+        "duration" : 851
+      }
+    }, {
+      "uid" : "97edd0887d7de954",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674032864612,
+        "stop" : 1674032865497,
+        "duration" : 885
+      }
+    }, {
+      "uid" : "c29dcb9671db5063",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674032725440,
+        "stop" : 1674032726277,
+        "duration" : 837
+      }
+    }, {
+      "uid" : "aec0e03eddc3af14",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'text'",
+      "time" : {
+        "start" : 1674032703244,
+        "stop" : 1674032704148,
+        "duration" : 904
+      }
+    }, {
+      "uid" : "91a8b5aecd45f7cc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got an unexpected keyword argument 'data'",
+      "time" : {
+        "start" : 1674032680453,
+        "stop" : 1674032680453,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8a6da8d4e29093b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674030402808,
+        "stop" : 1674030403637,
+        "duration" : 829
+      }
+    }, {
+      "uid" : "3fccb887d429118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673969551885,
+        "stop" : 1673969552712,
+        "duration" : 827
+      }
+    }, {
+      "uid" : "95ce3dc44db53c53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673968400760,
+        "stop" : 1673968401615,
+        "duration" : 855
+      }
+    }, {
+      "uid" : "409e65cfd6d93cf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963522474,
+        "stop" : 1673963522872,
+        "duration" : 398
+      }
+    }, {
+      "uid" : "68a6f9fe849d1f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963463756,
+        "stop" : 1673963464147,
+        "duration" : 391
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "38b4627a75fd64bc",
+        "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/38b4627a75fd64bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674389668096,
+          "stop" : 1674389669766,
+          "duration" : 1670
+        }
+      }, {
+        "uid" : "c59c275a86155df0",
+        "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/c59c275a86155df0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674389668096,
+          "stop" : 1674389669766,
+          "duration" : 1670
+        }
+      }, {
+        "uid" : "5f47a4f43151c21e",
+        "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/5f47a4f43151c21e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674389668096,
+          "stop" : 1674389669766,
+          "duration" : 1670
+        }
+      }, {
+        "uid" : "fd9d4f08203187ea",
+        "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/fd9d4f08203187ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674389668096,
+          "stop" : 1674389669766,
+          "duration" : 1670
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1d743bb7f1cdbd1.json",
+  "parameterValues" : [ ]
+}

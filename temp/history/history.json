@@ -1,0 +1,425 @@
+{
+  "05e1a9c6d79568ee17a7c0f41e6905ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "688d07b84a5617bd",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/688d07b84a5617bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675592326056,
+        "stop" : 1675592331351,
+        "duration" : 5295
+      }
+    }, {
+      "uid" : "7cfb748635c9e43f",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/7cfb748635c9e43f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675574614062,
+        "stop" : 1675574619111,
+        "duration" : 5049
+      }
+    }, {
+      "uid" : "7ed52ba13395637",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/7ed52ba13395637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675574256474,
+        "stop" : 1675574261592,
+        "duration" : 5118
+      }
+    }, {
+      "uid" : "b3dc4b7ccc74500",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/b3dc4b7ccc74500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675574122308,
+        "stop" : 1675574127538,
+        "duration" : 5230
+      }
+    } ]
+  },
+  "756c83ac2bc7f53581e6cd7780528cf7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "738f3f4ef3f7ba9e",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/738f3f4ef3f7ba9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673536743096,
+        "stop" : 1673536747986,
+        "duration" : 4890
+      }
+    }, {
+      "uid" : "4db63775afe085c4",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/4db63775afe085c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673536743096,
+        "stop" : 1673536747986,
+        "duration" : 4890
+      }
+    }, {
+      "uid" : "b5ae8ab347aec587",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/b5ae8ab347aec587",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673536743096,
+        "stop" : 1673536747986,
+        "duration" : 4890
+      }
+    }, {
+      "uid" : "3807ef00fe2d1ac9",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/3807ef00fe2d1ac9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673536743096,
+        "stop" : 1673536747986,
+        "duration" : 4890
+      }
+    } ]
+  },
+  "d0083625c26d0b92ab379905399028bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "6fd1222465011c99",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/6fd1222465011c99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675403150170,
+        "stop" : 1675403154987,
+        "duration" : 4817
+      }
+    }, {
+      "uid" : "7954975850720122",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/7954975850720122",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675403150170,
+        "stop" : 1675403154987,
+        "duration" : 4817
+      }
+    }, {
+      "uid" : "302c641980f72aec",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/302c641980f72aec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675403150170,
+        "stop" : 1675403154987,
+        "duration" : 4817
+      }
+    }, {
+      "uid" : "3948ef158dc16575",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/3948ef158dc16575",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675403150170,
+        "stop" : 1675403154987,
+        "duration" : 4817
+      }
+    } ]
+  },
+  "58ebf7ce2f346f15efd8f1f5f785207d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "f21a1e607f2d60d1",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/f21a1e607f2d60d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598373,
+        "stop" : 1673356598373,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31f6134946594490",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/31f6134946594490",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598373,
+        "stop" : 1673356598373,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "700e30ee4f121b1a",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/700e30ee4f121b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598373,
+        "stop" : 1673356598373,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51bfbb12a8a48cd",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/51bfbb12a8a48cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598373,
+        "stop" : 1673356598373,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1b3bd845452b2c981a179fc589dc62c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "c27a1a0a7ad95775",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/c27a1a0a7ad95775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598374,
+        "stop" : 1673356598374,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cfcbda4fe114597e",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/cfcbda4fe114597e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598374,
+        "stop" : 1673356598374,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db82991e20ef4b7a",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/db82991e20ef4b7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598374,
+        "stop" : 1673356598374,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec1806f53ff39939",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/ec1806f53ff39939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598374,
+        "stop" : 1673356598374,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c5b9325924d845ea95ec9287bc5998ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "364325baf90060f6",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/364325baf90060f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882794,
+        "stop" : 1673354882794,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "53d4ff4dc5cb6193",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/53d4ff4dc5cb6193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882794,
+        "stop" : 1673354882794,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a17623fe5b2d7ade",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/a17623fe5b2d7ade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882794,
+        "stop" : 1673354882794,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31ea4107439a28e1",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/31ea4107439a28e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882794,
+        "stop" : 1673354882794,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8e646cd0b7108a07e0426e33b3cadd3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "5bbcec25883fa945",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/5bbcec25883fa945",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674034035156,
+        "stop" : 1674034035601,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "fb8b0f61c7e94582",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/fb8b0f61c7e94582",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674034035156,
+        "stop" : 1674034035601,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "84e655ecad1ff029",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/84e655ecad1ff029",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674034035156,
+        "stop" : 1674034035601,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "e43d8e79983f3402",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/e43d8e79983f3402",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674034035156,
+        "stop" : 1674034035601,
+        "duration" : 445
+      }
+    } ]
+  },
+  "70c1a5e21cfeac7683a127b632717906" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "38b4627a75fd64bc",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/38b4627a75fd64bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389668096,
+        "stop" : 1674389669766,
+        "duration" : 1670
+      }
+    }, {
+      "uid" : "c59c275a86155df0",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/c59c275a86155df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389668096,
+        "stop" : 1674389669766,
+        "duration" : 1670
+      }
+    }, {
+      "uid" : "5f47a4f43151c21e",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/5f47a4f43151c21e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389668096,
+        "stop" : 1674389669766,
+        "duration" : 1670
+      }
+    }, {
+      "uid" : "fd9d4f08203187ea",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/fd9d4f08203187ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674389668096,
+        "stop" : 1674389669766,
+        "duration" : 1670
+      }
+    } ]
+  },
+  "7b46e99bcde7d21bd215ab8e3d02bbcb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e66fcffed60c46c4",
+      "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/e66fcffed60c46c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882795,
+        "stop" : 1673354882795,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3781cb3ab8263a07",
+      "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/3781cb3ab8263a07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882795,
+        "stop" : 1673354882795,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de06a60367460e74",
+      "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/de06a60367460e74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882795,
+        "stop" : 1673354882795,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1336f61892b93c3e",
+      "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/1336f61892b93c3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882795,
+        "stop" : 1673354882795,
+        "duration" : 0
+      }
+    } ]
+  }
+}

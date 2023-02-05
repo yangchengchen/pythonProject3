@@ -1,0 +1,289 @@
+{
+  "uid" : "c0ccec4faf092b18",
+  "name" : "原霆科技后台管理",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_comm",
+  "historyId" : "05e1a9c6d79568ee17a7c0f41e6905ab",
+  "time" : {
+    "start" : 1675525247145,
+    "stop" : 1675525252113,
+    "duration" : 4968
+  },
+  "description" : "原霆科技后台管理oa申请的用例",
+  "descriptionHtml" : "<p>原霆科技后台管理oa申请的用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1675525247144,
+      "stop" : 1675525247144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1675525247144,
+      "stop" : 1675525247144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1675525247144,
+      "stop" : 1675525247144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1675525247144,
+      "stop" : 1675525247144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1675525247144,
+      "stop" : 1675525247144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "原霆科技后台管理oa申请的用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "出差申请",
+      "time" : {
+        "start" : 1675525247145,
+        "stop" : 1675525248008,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "364af1b0b04eaa39",
+        "name" : "返回参数",
+        "source" : "364af1b0b04eaa39.txt",
+        "type" : "text/plain",
+        "size" : 445
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "请假申请",
+      "time" : {
+        "start" : 1675525248008,
+        "stop" : 1675525248814,
+        "duration" : 806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbb20a23c6b11d1",
+        "name" : "返回参数",
+        "source" : "fbb20a23c6b11d1.txt",
+        "type" : "text/plain",
+        "size" : 447
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "资中收文申请",
+      "time" : {
+        "start" : 1675525248815,
+        "stop" : 1675525249609,
+        "duration" : 794
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0c535b609be1231",
+        "name" : "返回参数",
+        "source" : "d0c535b609be1231.txt",
+        "type" : "text/plain",
+        "size" : 447
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "资中用车申请",
+      "time" : {
+        "start" : 1675525249609,
+        "stop" : 1675525250459,
+        "duration" : 850
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d5f7599973b225c",
+        "name" : "返回参数",
+        "source" : "5d5f7599973b225c.txt",
+        "type" : "text/plain",
+        "size" : 463
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "用车申请",
+      "time" : {
+        "start" : 1675525250459,
+        "stop" : 1675525251305,
+        "duration" : 846
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d033b70338d4514",
+        "name" : "返回参数",
+        "source" : "d033b70338d4514.txt",
+        "type" : "text/plain",
+        "size" : 445
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "车辆维修申请",
+      "time" : {
+        "start" : 1675525251305,
+        "stop" : 1675525252112,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d7d85abfe678e9fa",
+        "name" : "返回参数",
+        "source" : "d7d85abfe678e9fa.txt",
+        "type" : "text/plain",
+        "size" : 467
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1675525252114,
+      "stop" : 1675525252114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申请OA"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "86199-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理oa申请的用例', 'cases': [{'name': '出差申请', 'method': 'post', 'data': {'name': 'ycc000的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'oa/process/start'}, {'name': '请假申请', 'method': 'post', 'data': {'name': 'ycc000的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'oa/process/start'}, {'name': '资中收文申请', 'method': 'post', 'data': {'name': 'ycc000的资中收文', 'processDefinitionKey': 'zzdoc_6000'}, 'url': 'oa/process/start'}, {'name': '资中用车申请', 'method': 'post', 'data': {'name': 'ycc000的资中用车', 'processDefinitionKey': 'use_car_zz_3001'}, 'url': 'oa/process/start'}, {'name': '用车申请', 'method': 'post', 'data': {'name': 'ycc000的用车', 'processDefinitionKey': 'use_car_3000'}, 'url': 'oa/process/start'}, {'name': '车辆维修申请', 'method': 'post', 'data': {'name': 'ycc000的车辆维修', 'processDefinitionKey': 'maintenance_4000'}, 'url': 'oa/process/start'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0ccec4faf092b18.json",
+  "parameterValues" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理oa申请的用例', 'cases': [{'name': '出差申请', 'method': 'post', 'data': {'name': 'ycc000的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'oa/process/start'}, {'name': '请假申请', 'method': 'post', 'data': {'name': 'ycc000的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'oa/process/start'}, {'name': '资中收文申请', 'method': 'post', 'data': {'name': 'ycc000的资中收文', 'processDefinitionKey': 'zzdoc_6000'}, 'url': 'oa/process/start'}, {'name': '资中用车申请', 'method': 'post', 'data': {'name': 'ycc000的资中用车', 'processDefinitionKey': 'use_car_zz_3001'}, 'url': 'oa/process/start'}, {'name': '用车申请', 'method': 'post', 'data': {'name': 'ycc000的用车', 'processDefinitionKey': 'use_car_3000'}, 'url': 'oa/process/start'}, {'name': '车辆维修申请', 'method': 'post', 'data': {'name': 'ycc000的车辆维修', 'processDefinitionKey': 'maintenance_4000'}, 'url': 'oa/process/start'}]}" ]
+}

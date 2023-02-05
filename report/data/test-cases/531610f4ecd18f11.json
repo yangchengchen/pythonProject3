@@ -1,0 +1,166 @@
+{
+  "uid" : "531610f4ecd18f11",
+  "name" : "登录成功",
+  "fullName" : "ddt.Commerce_test.Test_Commerce#test_login",
+  "historyId" : "d0083625c26d0b92ab379905399028bc",
+  "time" : {
+    "start" : 1675059738691,
+    "stop" : 1675059743952,
+    "duration" : 5261
+  },
+  "description" : "登录成功的用例",
+  "descriptionHtml" : "<p>登录成功的用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Commerce",
+    "time" : {
+      "start" : 1675059710226,
+      "stop" : 1675059738689,
+      "duration" : 28463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "登录成功的用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开登录页",
+      "time" : {
+        "start" : 1675059738691,
+        "stop" : 1675059741882,
+        "duration" : 3191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1675059741882,
+        "stop" : 1675059742271,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1675059742271,
+        "stop" : 1675059742381,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1675059742381,
+        "stop" : 1675059743952,
+        "duration" : 1571
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Commerce::0",
+    "time" : {
+      "start" : 1675059743956,
+      "stop" : 1675059748031,
+      "duration" : 4075
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "原霆科技"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "Commerce_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Commerce"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "59026-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.Commerce_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录成功', 'description': '登录成功的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "531610f4ecd18f11.json",
+  "parameterValues" : [ "{'title': '登录成功', 'description': '登录成功的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}" ]
+}

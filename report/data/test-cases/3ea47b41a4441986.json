@@ -1,0 +1,89 @@
+{
+  "uid" : "3ea47b41a4441986",
+  "name" : "test_start",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_start",
+  "historyId" : "70c1a5e21cfeac7683a127b632717906",
+  "time" : {
+    "start" : 1674388550586,
+    "stop" : 1674388550586,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'Webapi.keys' has no attribute 'post'",
+  "statusTrace" : "self = <ddt.yuanting_test.Test_Yuanting object at 0x1025f5850>\n\n    @allure.story('申请OA')\n    # @pytest.mark.parametrize('listcases', datas['workflow'])\n    # def test_comm(self,listcases):\n    #     allure.dynamic.title(listcases['title'])\n    #     allure.dynamic.description(listcases['description'])\n    #     testcases = listcases['cases']\n    #     print(testcases)\n    #     for cases in testcases:\n    #         listcase = list(cases.values())\n    #         print(listcase)\n    #         url=listcase[3]\n    #         datas=listcase[2]\n    #         with allure.step(listcase[0]):\n    #             ree=keys.post_test(url,datas)\n    \n    \n    \n    # def test_login(self):\n    #     self.data=requests.post('https://cdc.test.yuanting.cn/api/passport/login',data={'account':\"ycc000\",'password':\"1111\"})\n    #     self.datas=self.data.json()\n    #     self.datas=self.datas['data']['token']\n    #     return self.datas\n    # def test_start(self):\n    #     self.header=keys.login()\n    #     self.data=requests.post('https://cdc.test.yuanting.cn/api/oa/process/start',data={\"name\":\"[202301172144] ycc000[ycc000]的出差申请\",\"processDefinitionKey\":\"trip_2000\"},headers={\"authorization\":self.header})\n    #     self.datas=self.data.text\n    #     print(self.datas)\n    \n    # def test_login(self):\n    #     self.ree=keys.post('https://cdc.test.yuanting.cn/api/passport/login',data={'account':\"ycc000\",'password':\"1111\"})\n    #     self.datas=self.data.json()\n    #     self.datas=self.datas['data']['token']\n    #     return self.datas\n    def test_start(self):\n        url='https://cdc.test.yuanting.cn/api/oa/process/start'\n        data={\"name\":\"[202301172144] ycc000[ycc000]的出差申请\",\"processDefinitionKey\":\"trip_2000\"}\n>       self.ree=keys.post(url,data)\nE       AttributeError: module 'Webapi.keys' has no attribute 'post'\n\nddt/yuanting_test.py:49: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674388550585,
+      "stop" : 1674388550586,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674388550608,
+      "stop" : 1674388550608,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申请OA"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "52009-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ea47b41a4441986.json",
+  "parameterValues" : [ ]
+}

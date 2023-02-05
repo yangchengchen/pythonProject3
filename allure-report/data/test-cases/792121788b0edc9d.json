@@ -1,0 +1,89 @@
+{
+  "uid" : "792121788b0edc9d",
+  "name" : "test_comm[listcases0]",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_comm",
+  "historyId" : "05e1a9c6d79568ee17a7c0f41e6905ab",
+  "time" : {
+    "start" : 1674028340684,
+    "stop" : 1674028341249,
+    "duration" : 565
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'str' object has no attribute 'items'",
+  "statusTrace" : "self = <ddt.yuanting_test.Test_Yuanting object at 0x10689cee0>\nlistcases = {'cases': [{'data': {'name': '[202301172144] ycc000[ycc000]的出差申请', 'processDefinitionKey': 'trip_2000'}, 'method': 'po...请', 'url': 'https://cdc.test.yuanting.cn/api/oa/process/complete'}], 'description': '原霆科技后台管理的用例', 'title': '原霆科技后台管理'}\n\n    @pytest.mark.parametrize('listcases', datas['workflow'])\n    def test_comm(self,listcases):\n        testcases = listcases['cases']\n        for cases in testcases:\n            listcase = list(cases.values())\n>           self.re=keys.post(listcase[3],listcase[2])\n\nddt/yuanting_test.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nWebapi/keys.py:12: in post\n    re=requests.post(url,data=datas,headers=header)\n/Library/Python/3.8/site-packages/requests/api.py:115: in post\n    return request(\"post\", url, data=data, json=json, **kwargs)\n/Library/Python/3.8/site-packages/requests/api.py:59: in request\n    return session.request(method=method, url=url, **kwargs)\n/Library/Python/3.8/site-packages/requests/sessions.py:573: in request\n    prep = self.prepare_request(req)\n/Library/Python/3.8/site-packages/requests/sessions.py:484: in prepare_request\n    p.prepare(\n/Library/Python/3.8/site-packages/requests/models.py:369: in prepare\n    self.prepare_headers(headers)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <PreparedRequest [POST]>\nheaders = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI4NWFmZWI3OWQ5MzY1ZGIxMjNjMzIwZDUzZmQ1YThjZCIsImlzcyI6ImVjaGlzYW4iLCJpYXQiOjE2NzQwMjgzNDEsImV4cCI6MTY3NjYyMDM0MX0.FkNiXBSmE-6XkDY-lxVqIH_9h6oAk59kJgF1nxXvEfvdhG-zvaMccfK4IqmOxv2x3gruHo3Tz30Txq5hv0AuHA'\n\n    def prepare_headers(self, headers):\n        \"\"\"Prepares the given HTTP headers.\"\"\"\n    \n        self.headers = CaseInsensitiveDict()\n        if headers:\n>           for header in headers.items():\nE           AttributeError: 'str' object has no attribute 'items'\n\n/Library/Python/3.8/site-packages/requests/models.py:489: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674028340683,
+      "stop" : 1674028340683,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674028341333,
+      "stop" : 1674028341333,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "33222-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理的用例', 'cases': [{'name': '申请', 'method': 'post', 'data': {'name': '[202301172144] ycc000[ycc000]的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/start'}, {'name': '提交申请', 'method': 'post', 'data': {'taskId': '87685', 'processInstanceId': '87676', 'application': 'y', 'startTime': 1674027268731, 'endTime': 1674027268733, 'leaveType': {'id': '144434548803895296', 'name': '流调'}, 'leaveDuration': '3', 'address': '资阳', 'isOut': {'id': '1', 'name': '是'}, 'reason': '办公', 'fujian': [{'id': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118153511.png', 'url': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118153511.png', 'name': '0d844adacffe970c50638d4b2eb379f1.png_wh860.png', 'uid': 1674027311389, 'status': 'success'}]}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/complete'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "792121788b0edc9d.json",
+  "parameterValues" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理的用例', 'cases': [{'name': '申请', 'method': 'post', 'data': {'name': '[202301172144] ycc000[ycc000]的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/start'}, {'name': '提交申请', 'method': 'post', 'data': {'taskId': '87685', 'processInstanceId': '87676', 'application': 'y', 'startTime': 1674027268731, 'endTime': 1674027268733, 'leaveType': {'id': '144434548803895296', 'name': '流调'}, 'leaveDuration': '3', 'address': '资阳', 'isOut': {'id': '1', 'name': '是'}, 'reason': '办公', 'fujian': [{'id': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118153511.png', 'url': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118153511.png', 'name': '0d844adacffe970c50638d4b2eb379f1.png_wh860.png', 'uid': 1674027311389, 'status': 'success'}]}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/complete'}]}" ]
+}

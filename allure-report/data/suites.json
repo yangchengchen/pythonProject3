@@ -1,0 +1,170 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_eaample5",
+    "children" : [ {
+      "name" : "Test_s",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "e1f53a6078526ce7",
+        "parentUid" : "fdffd4e1ff36a5d799d18664fe00a9bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673354882794,
+          "stop" : 1673354882794,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02",
+        "uid" : "bf055557cbe1cea6",
+        "parentUid" : "fdffd4e1ff36a5d799d18664fe00a9bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673354882795,
+          "stop" : 1673354882795,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fdffd4e1ff36a5d799d18664fe00a9bd"
+    } ],
+    "uid" : "2afbcf1f6aa6b8274d7a5177a7770e15"
+  }, {
+    "name" : "test_example6",
+    "children" : [ {
+      "name" : "Test_Data",
+      "children" : [ {
+        "name" : "test_sum[1-1-2]",
+        "uid" : "2f9791a67d8194f7",
+        "parentUid" : "964930214716df2bd586fb3232b241ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673356598373,
+          "stop" : 1673356598373,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1", "2" ]
+      }, {
+        "name" : "test_sum[1-2-3]",
+        "uid" : "ee2b98a2d65110b0",
+        "parentUid" : "964930214716df2bd586fb3232b241ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673356598374,
+          "stop" : 1673356598374,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "3" ]
+      } ],
+      "uid" : "964930214716df2bd586fb3232b241ee"
+    } ],
+    "uid" : "d6cd6c27781b73d32cbc7696dae2de95"
+  }, {
+    "name" : "Web",
+    "children" : [ {
+      "name" : "test_example7",
+      "children" : [ {
+        "name" : "Test_Comm",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "9f110b884c7e5397",
+          "parentUid" : "d0077478b41b0dedeb27a9e712301b55",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673536743096,
+            "stop" : 1673536747986,
+            "duration" : 4890
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d0077478b41b0dedeb27a9e712301b55"
+      } ],
+      "uid" : "016901b83e5457f2824862f8288c53e1"
+    } ],
+    "uid" : "cee0a4e0777f8321bdb48552ff69812d"
+  }, {
+    "name" : "ddt",
+    "children" : [ {
+      "name" : "yuanting_test",
+      "children" : [ {
+        "name" : "Test_Yuanting",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "bdfd492050af3963",
+          "parentUid" : "003c72cc111a0c7ca4bc237756800fe3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1674034035156,
+            "stop" : 1674034035601,
+            "duration" : 445
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_start",
+          "uid" : "1d743bb7f1cdbd1",
+          "parentUid" : "003c72cc111a0c7ca4bc237756800fe3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1674389668096,
+            "stop" : 1674389669766,
+            "duration" : 1670
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "原霆科技后台管理",
+          "uid" : "dd91356c6b995238",
+          "parentUid" : "003c72cc111a0c7ca4bc237756800fe3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1675594392927,
+            "stop" : 1675594398223,
+            "duration" : 5296
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理oa申请的用例', 'cases': [{'name': '出差申请', 'method': 'post', 'data': {'name': 'ycc000的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'oa/process/start'}, {'name': '请假申请', 'method': 'post', 'data': {'name': 'ycc000的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'oa/process/start'}, {'name': '资中收文申请', 'method': 'post', 'data': {'name': 'ycc000的资中收文', 'processDefinitionKey': 'zzdoc_6000'}, 'url': 'oa/process/start'}, {'name': '资中用车申请', 'method': 'post', 'data': {'name': 'ycc000的资中用车', 'processDefinitionKey': 'use_car_zz_3001'}, 'url': 'oa/process/start'}, {'name': '用车申请', 'method': 'post', 'data': {'name': 'ycc000的用车', 'processDefinitionKey': 'use_car_3000'}, 'url': 'oa/process/start'}, {'name': '车辆维修申请', 'method': 'post', 'data': {'name': 'ycc000的车辆维修', 'processDefinitionKey': 'maintenance_4000'}, 'url': 'oa/process/start'}]}" ]
+        } ],
+        "uid" : "003c72cc111a0c7ca4bc237756800fe3"
+      } ],
+      "uid" : "e59b47707127474226423986699bee8f"
+    }, {
+      "name" : "Commerce_test",
+      "children" : [ {
+        "name" : "Test_Commerce",
+        "children" : [ {
+          "name" : "登录成功",
+          "uid" : "b31c7fb4704207a2",
+          "parentUid" : "066111d1dfb92074b76e25defd39b2eb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1675403150170,
+            "stop" : 1675403154987,
+            "duration" : 4817
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'title': '登录成功', 'description': '登录成功的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}" ]
+        } ],
+        "uid" : "066111d1dfb92074b76e25defd39b2eb"
+      } ],
+      "uid" : "f6ced1023db6f9d02de4db8a4ceb4e87"
+    } ],
+    "uid" : "c89bb59eb3116fa65be52387c9b08d60"
+  } ],
+  "name" : "suites"
+}
