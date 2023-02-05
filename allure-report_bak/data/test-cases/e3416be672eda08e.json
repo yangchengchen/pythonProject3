@@ -1,0 +1,87 @@
+{
+  "uid" : "e3416be672eda08e",
+  "name" : "test_comm[listcases0]",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_comm",
+  "historyId" : "05e1a9c6d79568ee17a7c0f41e6905ab",
+  "time" : {
+    "start" : 1674032250524,
+    "stop" : 1674032253277,
+    "duration" : 2753
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674032250523,
+      "stop" : 1674032250523,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674032253278,
+      "stop" : 1674032253279,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "34060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理的用例', 'cases': [{'name': '提交出差申请', 'method': 'post', 'data': {'taskId': '87741', 'processInstanceId': '87732', 'application': 'y', 'startTime': 1674116074000, 'endTime': 1674288874000, 'leaveType': {'id': '144434548803895296', 'name': '流调'}, 'leaveDuration': '2.0', 'address': '资中', 'isOut': {'id': '1', 'name': '是'}, 'reason': '213', 'fujian': [{'id': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118161632.png', 'url': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118161632.png', 'name': '0d844adacffe970c50638d4b2eb379f1.png_wh860.png', 'uid': 1674029792677, 'status': 'success'}]}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/complete'}, {'name': '提交请假申请', 'method': 'post', 'data': {'taskId': '87797', 'processInstanceId': '87788', 'application': 'y', 'startTime': 1674030114370, 'endTime': 1674030114378, 'leaveType': {'id': '190140324847288320', 'name': '病假'}, 'leaveDuration': '1', 'reason': '11', 'fujian': None}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/complete'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3416be672eda08e.json",
+  "parameterValues" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理的用例', 'cases': [{'name': '提交出差申请', 'method': 'post', 'data': {'taskId': '87741', 'processInstanceId': '87732', 'application': 'y', 'startTime': 1674116074000, 'endTime': 1674288874000, 'leaveType': {'id': '144434548803895296', 'name': '流调'}, 'leaveDuration': '2.0', 'address': '资中', 'isOut': {'id': '1', 'name': '是'}, 'reason': '213', 'fujian': [{'id': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118161632.png', 'url': 'https://doc.yuanting.cn/model/file/202301/0d844adacffe970c50638d4b2eb379f118161632.png', 'name': '0d844adacffe970c50638d4b2eb379f1.png_wh860.png', 'uid': 1674029792677, 'status': 'success'}]}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/complete'}, {'name': '提交请假申请', 'method': 'post', 'data': {'taskId': '87797', 'processInstanceId': '87788', 'application': 'y', 'startTime': 1674030114370, 'endTime': 1674030114378, 'leaveType': {'id': '190140324847288320', 'name': '病假'}, 'leaveDuration': '1', 'reason': '11', 'fujian': None}, 'url': 'https://cdc.test.yuanting.cn/api/oa/process/complete'}]}" ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "2ec55d772104d405",
+  "name" : "test_login[listcases0]",
+  "fullName" : "ddt.Commerce_test.Test_Commerce#test_login",
+  "historyId" : "d0083625c26d0b92ab379905399028bc",
+  "time" : {
+    "start" : 1673597401409,
+    "stop" : 1673597401409,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebKey' object has no attribute 'method'",
+  "statusTrace" : "self = <ddt.Commerce_test.Test_Commerce object at 0x102890eb0>\nlistcases = {'cases': [{'method': 'geturl', 'name': '打开登录页', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'locator': '//*[@id=...码', 'value': 1111}, {'locator': '//*[@id=\"app\"]/div/form/button', 'method': 'click', 'name': '点击登录'}], 'title': '登录成功'}\n\n    @pytest.mark.parametrize('listcases',datas['loginPage'])\n    def test_login(self,listcases):\n        testcases = listcases['cases']\n        for cases in testcases:\n            listcase=list(cases)\n>           func=getattr(self.web,listcase[1])\nE           AttributeError: 'WebKey' object has no attribute 'method'\n\nddt/Commerce_test.py:20: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Commerce",
+    "time" : {
+      "start" : 1673597396271,
+      "stop" : 1673597401407,
+      "duration" : 5136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Commerce::0",
+    "time" : {
+      "start" : 1673597401462,
+      "stop" : 1673597405475,
+      "duration" : 4013
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: type object 'Test_Commerce' has no attribute 'self'\n",
+    "statusTrace" : "  File \"/Users/a00/Library/Python/3.8/lib/python/site-packages/allure_commons/_allure.py\", line 221, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/Users/a00/Library/Python/3.8/lib/python/site-packages/_pytest/fixtures.py\", line 916, in _teardown_yield_fixture\n    next(it)\n  File \"/Users/a00/Library/Python/3.8/lib/python/site-packages/_pytest/python.py\", line 868, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"/Users/a00/Library/Python/3.8/lib/python/site-packages/_pytest/python.py\", line 786, in _call_with_optional_argument\n    func(arg)\n  File \"/Users/a00/PycharmProjects/pythonProject3/ddt/Commerce_test.py\", line 14, in teardown_class\n    self.self.quit()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "Commerce_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Commerce"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "18718-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.Commerce_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ec55d772104d405.json",
+  "parameterValues" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}" ]
+}

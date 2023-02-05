@@ -1,0 +1,429 @@
+{
+  "uid" : "db307cdee80a61f9",
+  "name" : "test_login",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_login",
+  "historyId" : "8e646cd0b7108a07e0426e33b3cadd3d",
+  "time" : {
+    "start" : 1674034035156,
+    "stop" : 1674034035601,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674034035156,
+      "stop" : 1674034035156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674034036486,
+      "stop" : 1674034036487,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "34844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f795f668d4e07b15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674030402337,
+        "stop" : 1674030402795,
+        "duration" : 458
+      }
+    }, {
+      "uid" : "ffffedc2e682b66c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673969551353,
+        "stop" : 1673969551878,
+        "duration" : 525
+      }
+    }, {
+      "uid" : "5ae2cbe6035f74ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673968400214,
+        "stop" : 1673968400753,
+        "duration" : 539
+      }
+    }, {
+      "uid" : "18ab88b5a8971c0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673967542791,
+        "stop" : 1673967543220,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "c8e3f60649fecdd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673967475677,
+        "stop" : 1673967476226,
+        "duration" : 549
+      }
+    }, {
+      "uid" : "939e639c2fab238d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963904702,
+        "stop" : 1673963905096,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "4c9e3b12372e1bc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963868185,
+        "stop" : 1673963868606,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "595f3cf2e7c7af80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963850368,
+        "stop" : 1673963850796,
+        "duration" : 428
+      }
+    }, {
+      "uid" : "c0e04c85d4349ed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963782495,
+        "stop" : 1673963782900,
+        "duration" : 405
+      }
+    }, {
+      "uid" : "a6bbbdd6e3b3f3b4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not subscriptable",
+      "time" : {
+        "start" : 1673963756828,
+        "stop" : 1673963757227,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "124bdacccd073f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963725382,
+        "stop" : 1673963725800,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "c0da302fbfbcf2a0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not subscriptable",
+      "time" : {
+        "start" : 1673963669242,
+        "stop" : 1673963669669,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "814f4a1d223524aa",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1673963618550,
+        "stop" : 1673963618974,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "1ca46fee17296b83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963522033,
+        "stop" : 1673963522471,
+        "duration" : 438
+      }
+    }, {
+      "uid" : "152d1b509cb904fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963463305,
+        "stop" : 1673963463752,
+        "duration" : 447
+      }
+    }, {
+      "uid" : "a5806a4fe93abc6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673963306449,
+        "stop" : 1673963306880,
+        "duration" : 431
+      }
+    }, {
+      "uid" : "de03ac0bd49969c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673962493091,
+        "stop" : 1673962493518,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "e0636e333088e652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673962467384,
+        "stop" : 1673962467798,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "f6eb91eda62ca493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673962373116,
+        "stop" : 1673962373525,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "42947819a46757b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673962310759,
+        "stop" : 1673962311182,
+        "duration" : 423
+      }
+    }, {
+      "uid" : "3f6e6373b1e02782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673962253613,
+        "stop" : 1673962254043,
+        "duration" : 430
+      }
+    }, {
+      "uid" : "fd284f2b08c4ea7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673962007291,
+        "stop" : 1673962007837,
+        "duration" : 546
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "39da3268ffb57918",
+        "reportUrl" : "http://localhost:8080/job/yuanting/17/allure/#testresult/39da3268ffb57918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "2f47a61461f7d74c",
+        "reportUrl" : "http://localhost:8080/job/yuanting/16/allure/#testresult/2f47a61461f7d74c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "7b1b64a11ffcd39b",
+        "reportUrl" : "http://localhost:8080/job/yuanting/15/allure/#testresult/7b1b64a11ffcd39b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "a7c3fc4bd1f176cb",
+        "reportUrl" : "http://localhost:8080/job/yuanting/14/allure/#testresult/a7c3fc4bd1f176cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "2461dee099ad0c07",
+        "reportUrl" : "http://localhost:8080/job/yuanting/13/allure/#testresult/2461dee099ad0c07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "157257b6bc1f88ff",
+        "reportUrl" : "http://localhost:8080/job/yuanting/12/allure/#testresult/157257b6bc1f88ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "aa10cfa403a7df51",
+        "reportUrl" : "http://localhost:8080/job/yuanting/11/allure/#testresult/aa10cfa403a7df51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "767fc852f0b2f44c",
+        "reportUrl" : "http://localhost:8080/job/yuanting/10/allure/#testresult/767fc852f0b2f44c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "2baa436dcc0c82c2",
+        "reportUrl" : "http://localhost:8080/job/yuanting/9/allure/#testresult/2baa436dcc0c82c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "aa20c51eb4d202d7",
+        "reportUrl" : "http://localhost:8080/job/yuanting/8/allure/#testresult/aa20c51eb4d202d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "ee893a92b44fcf73",
+        "reportUrl" : "http://localhost:8080/job/yuanting/7/allure/#testresult/ee893a92b44fcf73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "3a93f3629a3b289e",
+        "reportUrl" : "http://localhost:8080/job/yuanting/6/allure/#testresult/3a93f3629a3b289e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "bdfd492050af3963",
+        "reportUrl" : "http://localhost:8080/job/yuanting/5/allure/#testresult/bdfd492050af3963",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "5bbcec25883fa945",
+        "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/5bbcec25883fa945",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "fb8b0f61c7e94582",
+        "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/fb8b0f61c7e94582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "84e655ecad1ff029",
+        "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/84e655ecad1ff029",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      }, {
+        "uid" : "e43d8e79983f3402",
+        "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/e43d8e79983f3402",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "db307cdee80a61f9.json",
+  "parameterValues" : [ ]
+}

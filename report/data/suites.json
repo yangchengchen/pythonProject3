@@ -7,7 +7,7 @@
       "name" : "Test_s",
       "children" : [ {
         "name" : "test_01",
-        "uid" : "6def529aff31b5ec",
+        "uid" : "e068c4189ea12dc6",
         "parentUid" : "fdffd4e1ff36a5d799d18664fe00a9bd",
         "status" : "passed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_02",
-        "uid" : "aff525207baa34d5",
+        "uid" : "8a5c3cba542ae951",
         "parentUid" : "fdffd4e1ff36a5d799d18664fe00a9bd",
         "status" : "passed",
         "time" : {
@@ -41,7 +41,7 @@
       "name" : "Test_Data",
       "children" : [ {
         "name" : "test_sum[1-1-2]",
-        "uid" : "d2682715a66af141",
+        "uid" : "213ff565b9cf1b89",
         "parentUid" : "964930214716df2bd586fb3232b241ee",
         "status" : "passed",
         "time" : {
@@ -54,7 +54,7 @@
         "parameters" : [ "1", "1", "2" ]
       }, {
         "name" : "test_sum[1-2-3]",
-        "uid" : "4d734861d95aa24b",
+        "uid" : "5ed62c4e5f4a61ec",
         "parentUid" : "964930214716df2bd586fb3232b241ee",
         "status" : "passed",
         "time" : {
@@ -77,7 +77,7 @@
         "name" : "Test_Comm",
         "children" : [ {
           "name" : "test_login",
-          "uid" : "1a33013498ef0b8c",
+          "uid" : "8a825d1cfc4efc60",
           "parentUid" : "d0077478b41b0dedeb27a9e712301b55",
           "status" : "passed",
           "time" : {
@@ -102,7 +102,7 @@
         "name" : "Test_Yuanting",
         "children" : [ {
           "name" : "test_login",
-          "uid" : "94a768c78cad6551",
+          "uid" : "1e04e543a5bd4e0a",
           "parentUid" : "003c72cc111a0c7ca4bc237756800fe3",
           "status" : "passed",
           "time" : {
@@ -115,7 +115,7 @@
           "parameters" : [ ]
         }, {
           "name" : "test_start",
-          "uid" : "add42b856a6c1b1e",
+          "uid" : "7954124697e2f7b",
           "parentUid" : "003c72cc111a0c7ca4bc237756800fe3",
           "status" : "passed",
           "time" : {
@@ -128,17 +128,30 @@
           "parameters" : [ ]
         }, {
           "name" : "原霆科技后台管理",
-          "uid" : "448112c00a33a88f",
+          "uid" : "5431b66cd1a594d1",
           "parentUid" : "003c72cc111a0c7ca4bc237756800fe3",
           "status" : "passed",
           "time" : {
-            "start" : 1675526798818,
-            "stop" : 1675526804052,
-            "duration" : 5234
+            "start" : 1688047769971,
+            "stop" : 1688047775111,
+            "duration" : 5140
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理oa申请的用例', 'cases': [{'name': '出差申请', 'method': 'post', 'data': {'name': 'ycc000的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'oa/process/start'}, {'name': '请假申请', 'method': 'post', 'data': {'name': 'ycc000的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'oa/process/start'}, {'name': '资中收文申请', 'method': 'post', 'data': {'name': 'ycc000的资中收文', 'processDefinitionKey': 'zzdoc_6000'}, 'url': 'oa/process/start'}, {'name': '资中用车申请', 'method': 'post', 'data': {'name': 'ycc000的资中用车', 'processDefinitionKey': 'use_car_zz_3001'}, 'url': 'oa/process/start'}, {'name': '用车申请', 'method': 'post', 'data': {'name': 'ycc000的用车', 'processDefinitionKey': 'use_car_3000'}, 'url': 'oa/process/start'}, {'name': '车辆维修申请', 'method': 'post', 'data': {'name': 'ycc000的车辆维修', 'processDefinitionKey': 'maintenance_4000'}, 'url': 'oa/process/start'}]}" ]
+        }, {
+          "name" : "原霆科技后台管理",
+          "uid" : "83f0bf8a86387999",
+          "parentUid" : "003c72cc111a0c7ca4bc237756800fe3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1688047775116,
+            "stop" : 1688047780139,
+            "duration" : 5023
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理系统配置', 'cases': [{'name': '新增物资', 'method': 'post', 'data': {'name': 'ycc000的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'oa/process/start'}, {'name': '新增物资类型', 'method': 'post', 'data': {'name': 'ycc000的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'oa/process/start'}, {'name': '新增供应商', 'method': 'post', 'data': {'name': 'ycc000的资中收文', 'processDefinitionKey': 'zzdoc_6000'}, 'url': 'oa/process/start'}, {'name': '新增单位', 'method': 'post', 'data': {'name': 'ycc000的资中用车', 'processDefinitionKey': 'use_car_zz_3001'}, 'url': 'oa/process/start'}, {'name': '新增厂家', 'method': 'post', 'data': {'name': 'ycc000的用车', 'processDefinitionKey': 'use_car_3000'}, 'url': 'oa/process/start'}, {'name': '新增药剂', 'method': 'post', 'data': {'name': 'ycc000的车辆维修', 'processDefinitionKey': 'maintenance_4000'}, 'url': 'oa/process/start'}]}" ]
         } ],
         "uid" : "003c72cc111a0c7ca4bc237756800fe3"
       } ],
@@ -149,7 +162,7 @@
         "name" : "Test_Commerce",
         "children" : [ {
           "name" : "登录成功",
-          "uid" : "3fd3fcf783f7abae",
+          "uid" : "8989bfaaed84fadb",
           "parentUid" : "066111d1dfb92074b76e25defd39b2eb",
           "status" : "passed",
           "time" : {

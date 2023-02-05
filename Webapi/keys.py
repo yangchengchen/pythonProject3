@@ -16,5 +16,5 @@ def post(url,datas):
     re=requests.post(testurl+url,data=datas,headers={"authorization":header})
     return re
 
-if __name__ == '__main__':
-   post_test()
+#if __name__ == '__main__':
+

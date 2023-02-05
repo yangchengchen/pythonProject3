@@ -1,0 +1,84 @@
+{
+  "uid" : "d060da40811c75d3",
+  "name" : "test_login",
+  "fullName" : "Web.test_example7.Test_Comm#test_login",
+  "historyId" : "756c83ac2bc7f53581e6cd7780528cf7",
+  "time" : {
+    "start" : 1673357895755,
+    "stop" : 1673357900370,
+    "duration" : 4615
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Comm",
+    "time" : {
+      "start" : 1673357890817,
+      "stop" : 1673357895754,
+      "duration" : 4937
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Comm::0",
+    "time" : {
+      "start" : 1673357900370,
+      "stop" : 1673357904458,
+      "duration" : 4088
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_example7"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Comm"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "4573-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Web.test_example7"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d060da40811c75d3.json",
+  "parameterValues" : [ ]
+}

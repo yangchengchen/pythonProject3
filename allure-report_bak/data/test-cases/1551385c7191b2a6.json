@@ -1,0 +1,585 @@
+{
+  "uid" : "1551385c7191b2a6",
+  "name" : "登录成功",
+  "fullName" : "ddt.Commerce_test.Test_Commerce#test_login",
+  "historyId" : "d0083625c26d0b92ab379905399028bc",
+  "time" : {
+    "start" : 1675403150170,
+    "stop" : 1675403154987,
+    "duration" : 4817
+  },
+  "description" : "登录成功的用例",
+  "descriptionHtml" : "<p>登录成功的用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1675403144972,
+      "stop" : 1675403144972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1675403144971,
+      "stop" : 1675403144971,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_Test_Commerce",
+    "time" : {
+      "start" : 1675403144972,
+      "stop" : 1675403150168,
+      "duration" : 5196
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1675403144972,
+      "stop" : 1675403144972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1675403144971,
+      "stop" : 1675403144971,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "登录成功的用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开登录页",
+      "time" : {
+        "start" : 1675403150170,
+        "stop" : 1675403152905,
+        "duration" : 2735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1675403152905,
+        "stop" : 1675403153260,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1675403153260,
+        "stop" : 1675403153388,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1675403153388,
+        "stop" : 1675403154987,
+        "duration" : 1599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Commerce::0",
+    "time" : {
+      "start" : 1675403154993,
+      "stop" : 1675403159072,
+      "duration" : 4079
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "原霆科技"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "Commerce_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Commerce"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "75715-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.Commerce_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录成功', 'description': '登录成功的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c5e57c100fc0655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675403098289,
+        "stop" : 1675403103399,
+        "duration" : 5110
+      }
+    }, {
+      "uid" : "32093955fe375210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675403035877,
+        "stop" : 1675403041533,
+        "duration" : 5656
+      }
+    }, {
+      "uid" : "652e0cae2a35e190",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675402968481,
+        "stop" : 1675402976561,
+        "duration" : 8080
+      }
+    }, {
+      "uid" : "a3a40b5d7e606bdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675402682652,
+        "stop" : 1675402690817,
+        "duration" : 8165
+      }
+    }, {
+      "uid" : "ae832c195f85c59d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675311718834,
+        "stop" : 1675311723292,
+        "duration" : 4458
+      }
+    }, {
+      "uid" : "b03601c05ac97a43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675311590812,
+        "stop" : 1675311596341,
+        "duration" : 5529
+      }
+    }, {
+      "uid" : "2cdbb911f80b8cca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675311553421,
+        "stop" : 1675311558190,
+        "duration" : 4769
+      }
+    }, {
+      "uid" : "48726174e69b0003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675063718215,
+        "stop" : 1675063723305,
+        "duration" : 5090
+      }
+    }, {
+      "uid" : "bc19c7237530a017",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675062134091,
+        "stop" : 1675062140047,
+        "duration" : 5956
+      }
+    }, {
+      "uid" : "21c29308bd8cfab1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675061994384,
+        "stop" : 1675061999243,
+        "duration" : 4859
+      }
+    }, {
+      "uid" : "f405d4be4a603f32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675060611810,
+        "stop" : 1675060616828,
+        "duration" : 5018
+      }
+    }, {
+      "uid" : "555d9218c9f68ca1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675059738691,
+        "stop" : 1675059743952,
+        "duration" : 5261
+      }
+    }, {
+      "uid" : "995848e83d2ff4b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673952984550,
+        "stop" : 1673952989436,
+        "duration" : 4886
+      }
+    }, {
+      "uid" : "13b382a20997d908",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673952656365,
+        "stop" : 1673952661788,
+        "duration" : 5423
+      }
+    }, {
+      "uid" : "2137a302c4346db4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Test_Commerce' has no attribute 'self'",
+      "time" : {
+        "start" : 1673597846452,
+        "stop" : 1673597851056,
+        "duration" : 4604
+      }
+    }, {
+      "uid" : "8e37360998d12c7f",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 1",
+      "time" : {
+        "start" : 1673597724106,
+        "stop" : 1673597724106,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "805d66b131a8207",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 1",
+      "time" : {
+        "start" : 1673597679016,
+        "stop" : 1673597679016,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "836c231b7fdfa990",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebKey' object has no attribute 'method'",
+      "time" : {
+        "start" : 1673597504809,
+        "stop" : 1673597504809,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ebcce46928239c41",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebKey' object has no attribute 'method'",
+      "time" : {
+        "start" : 1673597401409,
+        "stop" : 1673597401409,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c0b08a508bbad421",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebKey' object has no attribute 'listcase'",
+      "time" : {
+        "start" : 1673597226363,
+        "stop" : 1673597226363,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e185ca71d62845ab",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'dict' object has no attribute 'value'",
+      "time" : {
+        "start" : 1673597153258,
+        "stop" : 1673597153258,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "56cb91dbe1d95f01",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case'",
+      "time" : {
+        "start" : 1673596990656,
+        "stop" : 1673596990656,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e7582ce0824cf41a",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case'",
+      "time" : {
+        "start" : 1673596903348,
+        "stop" : 1673596903348,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "3afd36cc22164b33",
+        "reportUrl" : "http://localhost:8080/job/yuanting/17/allure/#testresult/3afd36cc22164b33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "5c2fad875014825d",
+        "reportUrl" : "http://localhost:8080/job/yuanting/16/allure/#testresult/5c2fad875014825d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "aa9fc06e9108829f",
+        "reportUrl" : "http://localhost:8080/job/yuanting/15/allure/#testresult/aa9fc06e9108829f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "9622d5b679dd7ec5",
+        "reportUrl" : "http://localhost:8080/job/yuanting/14/allure/#testresult/9622d5b679dd7ec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "80995dee8e7779b2",
+        "reportUrl" : "http://localhost:8080/job/yuanting/13/allure/#testresult/80995dee8e7779b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "c4ef68f1fd57f99e",
+        "reportUrl" : "http://localhost:8080/job/yuanting/12/allure/#testresult/c4ef68f1fd57f99e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "abd30ead09017743",
+        "reportUrl" : "http://localhost:8080/job/yuanting/11/allure/#testresult/abd30ead09017743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "3c22224080491934",
+        "reportUrl" : "http://localhost:8080/job/yuanting/10/allure/#testresult/3c22224080491934",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "1fac8d387120df09",
+        "reportUrl" : "http://localhost:8080/job/yuanting/9/allure/#testresult/1fac8d387120df09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "c486ad277f149127",
+        "reportUrl" : "http://localhost:8080/job/yuanting/8/allure/#testresult/c486ad277f149127",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "511a0d2cd435967",
+        "reportUrl" : "http://localhost:8080/job/yuanting/7/allure/#testresult/511a0d2cd435967",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "5e8776e135d840f8",
+        "reportUrl" : "http://localhost:8080/job/yuanting/6/allure/#testresult/5e8776e135d840f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "b31c7fb4704207a2",
+        "reportUrl" : "http://localhost:8080/job/yuanting/5/allure/#testresult/b31c7fb4704207a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "6fd1222465011c99",
+        "reportUrl" : "http://localhost:8080/job/yuanting/4/allure/#testresult/6fd1222465011c99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "7954975850720122",
+        "reportUrl" : "http://localhost:8080/job/yuanting/3/allure/#testresult/7954975850720122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "302c641980f72aec",
+        "reportUrl" : "http://localhost:8080/job/yuanting/2/allure/#testresult/302c641980f72aec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      }, {
+        "uid" : "3948ef158dc16575",
+        "reportUrl" : "http://localhost:8080/job/yuanting/1/allure/#testresult/3948ef158dc16575",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1551385c7191b2a6.json",
+  "parameterValues" : [ "{'title': '登录成功', 'description': '登录成功的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}" ]
+}

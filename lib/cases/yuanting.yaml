@@ -41,6 +41,46 @@ workflow :
         method: post
         data: { "name": "ycc000的车辆维修","processDefinitionKey": "maintenance_4000" }
         url: oa/process/start
+  -
+    title : 原霆科技后台管理
+    description : 原霆科技后台管理系统配置
+    cases :
+
+      -
+        name : 新增物资
+        method : post
+        data : {"name":"ycc000的出差申请","processDefinitionKey":"trip_2000"}
+        url : oa/process/start
+
+      -
+        name : 新增物资类型
+        method : post
+        data : {"name":"ycc000的请假申请","processDefinitionKey":"leave_1000"}
+        url : oa/process/start
+
+      -
+        name: 新增供应商
+        method: post
+        data: {"name":"ycc000的资中收文","processDefinitionKey":"zzdoc_6000"}
+        url: oa/process/start
+
+      -
+        name: 新增单位
+        method: post
+        data: { "name": "ycc000的资中用车","processDefinitionKey": "use_car_zz_3001" }
+        url: oa/process/start
+
+      -
+        name: 新增厂家
+        method: post
+        data: { "name": "ycc000的用车","processDefinitionKey": "use_car_3000" }
+        url: oa/process/start
+
+      -
+        name: 新增药剂
+        method: post
+        data: { "name": "ycc000的车辆维修","processDefinitionKey": "maintenance_4000" }
+        url: oa/process/start
 
 
 #      -

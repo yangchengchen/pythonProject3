@@ -1,5 +1,36 @@
 [ {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/yuanting/5/allure",
+  "reportName" : "AllureReport",
   "data" : {
-    "duration" : 2171921258
+    "duration" : 14692897345
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/yuanting/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2237448557
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/yuanting/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2219736317
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:8080/job/yuanting/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2219378798
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/job/yuanting/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2219244744
   }
 } ]

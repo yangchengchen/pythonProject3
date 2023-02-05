@@ -1,0 +1,86 @@
+{
+  "uid" : "ab010e01a93440",
+  "name" : "test_start",
+  "fullName" : "ddt.yuanting_test.Test_Yuanting#test_start",
+  "historyId" : "70c1a5e21cfeac7683a127b632717906",
+  "time" : {
+    "start" : 1674032703244,
+    "stop" : 1674032704148,
+    "duration" : 904
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'text'",
+  "statusTrace" : "self = <ddt.yuanting_test.Test_Yuanting object at 0x1049c6850>\n\n    def test_start(self):\n        self.ree=keys.post('https://cdc.test.yuanting.cn/api/oa/process/start',{\"name\":\"[202301172144] ycc000[ycc000]的出差申请\",\"processDefinitionKey\":\"trip_2000\"})\n>       self.ree=self.ree.text\nE       AttributeError: 'NoneType' object has no attribute 'text'\n\nddt/yuanting_test.py:42: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting",
+    "time" : {
+      "start" : 1674032703243,
+      "stop" : 1674032703243,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_Yuanting::0",
+    "time" : {
+      "start" : 1674032704196,
+      "stop" : 1674032704196,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "yuanting_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Yuanting"
+  }, {
+    "name" : "host",
+    "value" : "00demacbook-pro"
+  }, {
+    "name" : "thread",
+    "value" : "34261-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ddt.yuanting_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab010e01a93440.json",
+  "parameterValues" : [ ]
+}

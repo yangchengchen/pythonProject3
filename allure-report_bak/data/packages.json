@@ -1,0 +1,146 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_eaample5",
+    "children" : [ {
+      "name" : "test_01",
+      "uid" : "56d7fa669d750745",
+      "parentUid" : "e8f5093fbc83507df3ad064dffa72dc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882794,
+        "stop" : 1673354882794,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_02",
+      "uid" : "a1e5c463113e5a36",
+      "parentUid" : "e8f5093fbc83507df3ad064dffa72dc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673354882795,
+        "stop" : 1673354882795,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e8f5093fbc83507df3ad064dffa72dc5"
+  }, {
+    "name" : "test_example6",
+    "children" : [ {
+      "name" : "test_sum[1-1-2]",
+      "uid" : "6d94bfe8b8db6ede",
+      "parentUid" : "1e45040ab5fe42319f6a74e68c90a414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598373,
+        "stop" : 1673356598373,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "1", "2" ]
+    }, {
+      "name" : "test_sum[1-2-3]",
+      "uid" : "d5e4ae11c85e3620",
+      "parentUid" : "1e45040ab5fe42319f6a74e68c90a414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673356598374,
+        "stop" : 1673356598374,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "2", "3" ]
+    } ],
+    "uid" : "1e45040ab5fe42319f6a74e68c90a414"
+  }, {
+    "name" : "Web.test_example7",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "e94ebda571525f98",
+      "parentUid" : "b78292b787fb3438e8eb7ea679b4e41a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673536743096,
+        "stop" : 1673536747986,
+        "duration" : 4890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Web.test_example7"
+  }, {
+    "name" : "ddt",
+    "children" : [ {
+      "name" : "yuanting_test",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "db307cdee80a61f9",
+        "parentUid" : "aec4791430b1cb68c9a6c5af920fa91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674034035156,
+          "stop" : 1674034035601,
+          "duration" : 445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_start",
+        "uid" : "e2b640ffbf191f58",
+        "parentUid" : "aec4791430b1cb68c9a6c5af920fa91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674389668096,
+          "stop" : 1674389669766,
+          "duration" : 1670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "原霆科技后台管理",
+        "uid" : "dbff10cd3d8814d6",
+        "parentUid" : "aec4791430b1cb68c9a6c5af920fa91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675594392927,
+          "stop" : 1675594398223,
+          "duration" : 5296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '原霆科技后台管理', 'description': '原霆科技后台管理oa申请的用例', 'cases': [{'name': '出差申请', 'method': 'post', 'data': {'name': 'ycc000的出差申请', 'processDefinitionKey': 'trip_2000'}, 'url': 'oa/process/start'}, {'name': '请假申请', 'method': 'post', 'data': {'name': 'ycc000的请假申请', 'processDefinitionKey': 'leave_1000'}, 'url': 'oa/process/start'}, {'name': '资中收文申请', 'method': 'post', 'data': {'name': 'ycc000的资中收文', 'processDefinitionKey': 'zzdoc_6000'}, 'url': 'oa/process/start'}, {'name': '资中用车申请', 'method': 'post', 'data': {'name': 'ycc000的资中用车', 'processDefinitionKey': 'use_car_zz_3001'}, 'url': 'oa/process/start'}, {'name': '用车申请', 'method': 'post', 'data': {'name': 'ycc000的用车', 'processDefinitionKey': 'use_car_3000'}, 'url': 'oa/process/start'}, {'name': '车辆维修申请', 'method': 'post', 'data': {'name': 'ycc000的车辆维修', 'processDefinitionKey': 'maintenance_4000'}, 'url': 'oa/process/start'}]}" ]
+      } ],
+      "uid" : "aec4791430b1cb68c9a6c5af920fa91e"
+    }, {
+      "name" : "Commerce_test",
+      "children" : [ {
+        "name" : "登录成功",
+        "uid" : "1551385c7191b2a6",
+        "parentUid" : "65371e2c418a0732e86b5518f74cf798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1675403150170,
+          "stop" : 1675403154987,
+          "duration" : 4817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'description': '登录成功的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://cdc.test.yuanting.cn/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div/input', 'value': 'admin'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/div/input', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/button'}]}" ]
+      } ],
+      "uid" : "65371e2c418a0732e86b5518f74cf798"
+    } ],
+    "uid" : "96b36cb794029e5dfd8c0e81890e720c"
+  } ],
+  "name" : "packages"
+}

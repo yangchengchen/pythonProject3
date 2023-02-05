@@ -1,0 +1,91 @@
+[ {
+  "uid" : "dbff10cd3d8814d6",
+  "name" : "原霆科技后台管理",
+  "time" : {
+    "start" : 1675594392927,
+    "stop" : 1675594398223,
+    "duration" : 5296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db307cdee80a61f9",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1674034035156,
+    "stop" : 1674034035601,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2b640ffbf191f58",
+  "name" : "test_start",
+  "time" : {
+    "start" : 1674389668096,
+    "stop" : 1674389669766,
+    "duration" : 1670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e4ae11c85e3620",
+  "name" : "test_sum[1-2-3]",
+  "time" : {
+    "start" : 1673356598374,
+    "stop" : 1673356598374,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e94ebda571525f98",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1673536743096,
+    "stop" : 1673536747986,
+    "duration" : 4890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1e5c463113e5a36",
+  "name" : "test_02",
+  "time" : {
+    "start" : 1673354882795,
+    "stop" : 1673354882795,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d94bfe8b8db6ede",
+  "name" : "test_sum[1-1-2]",
+  "time" : {
+    "start" : 1673356598373,
+    "stop" : 1673356598373,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56d7fa669d750745",
+  "name" : "test_01",
+  "time" : {
+    "start" : 1673354882794,
+    "stop" : 1673354882794,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1551385c7191b2a6",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1675403150170,
+    "stop" : 1675403154987,
+    "duration" : 4817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
